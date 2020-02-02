@@ -30,7 +30,7 @@ import datetime as dt
 output_file('dash.html')
 
 #read data
-df=pd.read_table('C:\\Users\\nishant\\Downloads\\users.tsv')
+df=pd.read_table('users.tsv')
 df.dropna(inplace=True)
 
 #convert to datetime
